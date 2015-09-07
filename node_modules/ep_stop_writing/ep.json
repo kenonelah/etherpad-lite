@@ -1,0 +1,18 @@
+{
+  "parts": [
+    {
+      "name": "stop_writing",
+      "hooks": {
+        "handleMessage": "ep_stop_writing/handleMessage",
+        "eejsBlock_mySettings": "ep_stop_writing/stop_writing",
+        "eejsBlock_scripts": "ep_stop_writing/stop_writing",
+        "eejsBlock_styles": "ep_stop_writing/stop_writing",
+	"eejsBlock_editbarMenuRight": "ep_stop_writing/stop_writing"
+      },
+      "client_hooks": {
+        "postAceInit": "ep_stop_writing/static/js/postAceInit:postAceInit",
+        "handleClientMessage_CUSTOM":"ep_stop_writing/static/js/stop_writing"
+      }
+    }
+  ]
+}

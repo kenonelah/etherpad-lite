@@ -1,0 +1,21 @@
+/* TODO
+* Create better buttons
+* 
+*/
+#stop_writing{
+  position:fixed;
+  left:0;
+  right:0;
+  bottom:0;
+  top:0;
+  background-color:#000;
+  color:#fff;
+  font-size:72px;
+  z-index:999;
+  text-align:center;
+  opacity:.3;
+}
+#stopWriting{
+  color:#888;
+  font-size:14px;
+}
